@@ -280,9 +280,31 @@
     </div>
 
     <!-- Contact Us -->
-    <div class="contact" id="contact">
+    <div class="container contact" id="contact">
         <h2>Contact-Us</h2>
+        <div class="container">
+            <form method="POST">
+                <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <label for="phone">Phone no.</label>
+                    <input type="text" class="form-control" id="phone">
+                </div>
+                <div class="r-captcha">
+                    <div class="g-recaptcha" data-sitekey="6LejwsgUAAAAAB9qtyBhXtLWAgdnUrwyZUjJIluK"></div>
+                </div>
 
+                <div class="s-btn">
+                    <button class="btn btn-success" type="submit">Confirm</button>
+                </div>
+            </form>
+        </div>
     </div>
 
     <!-- Section Five -->
