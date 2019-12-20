@@ -88,10 +88,14 @@
       width: 100%;
 }
 
+.five h2 {
+    font-size: 48px;
+}
 .contactus {
     padding: 20px 55px;
     margin: 0 auto;
-    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .contactus .btn {
@@ -104,6 +108,13 @@
   margin-left: 16px;
 }
 
+.five .right {
+    padding: 110px 45px 0 45px;
+    font-size: 32px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 .maps {
  width: 90%;
  margin: 0 auto;
@@ -111,30 +122,85 @@
  margin-left: 4rem;
 }
 
-.five span i {
+.footer span i {
     font-size: 24px;
     padding: 0 10px;
     text-decoration: none;
 }
-.five span a, .five p a {
+.footer span a, .footer p a {
     text-decoration: none;
     color: black;
+}
+.footer .logos img {
+    height: 40px;
+    padding: 5px;
 }
 
 /* Signup Modal*/
 #signUp {
   display: none;
-  padding: 5px;
   color: black;
 }
 
 #signUp .modal-body {
-  background: blue;
+  padding: 0;
 }
 
 .signup-back {
   overflow: auto;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.main-div {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+
+.left-div {
+ width: 40%;
+ background-image: url('http://quintesourcewater.ca/web/wp-content/uploads/2015/02/iStock_000043595088_Small.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ object-fit: cover;
+ height: 380px;
+ margin-left: 0;
+ -webkit-box-shadow: 8px 0 5px -2px #888;
+ box-shadow: 8px 0 5px -2px #888;
+}
+
+.right-div {
+ margin-left: 8px;
+ margin-top: 10px;
+}
+
+.right-div h5 {
+ text-align: center;
+ font-size: 1.4rem;
+}
+
+.signupForm {
+ margin-top: 10px;
+}
+
+.check {
+ margin-left: 16px;
+}
+
+.check input {
+ margin-top: 10px;
+}
+
+.signup-btn {
+ margin-top: 25px;
+}
+
+.overlay-modal {
+ position: relative;
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.6);
+ z-index: 1;
 }
 /* Signup Modal*/
 
@@ -193,7 +259,7 @@
   .four .text-white h2 {
       font-size: 24px;
   }
-  .five .col-sm-6 {
+  .footer .col-sm-6 {
       width: 50%;
   }
 }
@@ -244,7 +310,7 @@
   .ds-none {
       display: none;
   }
-  .five .col-sm-6 {
+  .footer .col-sm-6 {
       width: 50%;
   }
 }
@@ -286,7 +352,7 @@
   .four .col-md-6 {
       width: 50%;
   }
-  .five .col-sm-6 {
+  .footer .col-sm-6 {
       width: 50%;
   }
 }

@@ -150,24 +150,6 @@
     <!-- Section Three -->
     <div class="three text-center">
         <div class="container">
-            <!-- Form Part -->
-            <form>
-                <div class="form-row">
-                    <div class="col-md-3 col-sm-12">
-                        <input type="text" class="form-control" placeholder="First name">
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <input type="text" class="form-control" placeholder="Last name">
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <input type="text" class="form-control" placeholder="Email">
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <button type="button" class="btn btn-primary w-100 text-white">GET OUR MAILS</button>
-                    </div>
-                </div>
-            </form>
-
             <div class="row mt-5">
                 <!-- Left Section -->
                 <div class="col-md-6 col-sm-12 left">
@@ -281,29 +263,38 @@
     </div>
 
     <!-- Contact Us -->
-    <div class="container">
-        <h2 class="text-center pt-5">Contact Us</h2>
-        <div class="contactus">
-            <form method="POST">
-                <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name">
+    <div class="five container">
+        <h2 class="text-center p-4">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contactus">
+                    <form method="POST">
+                        <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <label for="phone">Phone no.</label>
+                            <input type="text" class="form-control" id="phone">
+                        </div>
+                        <div class="r-captcha">
+                            <div class="g-recaptcha" data-sitekey="6LejwsgUAAAAAB9qtyBhXtLWAgdnUrwyZUjJIluK"></div>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-success" type="submit">Message</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email">
-                </div>
-                <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <label for="phone">Phone no.</label>
-                    <input type="text" class="form-control" id="phone">
-                </div>
-                <div class="r-captcha">
-                    <div class="g-recaptcha" data-sitekey="6LejwsgUAAAAAB9qtyBhXtLWAgdnUrwyZUjJIluK"></div>
-                </div>
-                <div class="text-center">
-                    <button class="btn btn-success" type="submit">Confirm</button>
-                </div>
-            </form>
+            </div>
+            <div class="right col-md-6">
+                <p><i class="fa fa-map-marker"></i> 54 Perry rd. Bangor, Me. 04401</p>
+                <i class="fa fa-phone fa-rotate-90"></i> (207) 947-1999</p>
+                <i class="fa fa-fax"></i> (207) 989-2880</p>
+            </div>
         </div>
     </div>
 
@@ -315,7 +306,7 @@
     </div>
 
     <!-- Section Five -->
-    <div class="five container p-5">
+    <div class="footer container p-5">
 
         <!-- Footer Links -->
         <div class="row">
@@ -352,10 +343,9 @@
                 <p>
                     <span><a href="#"><i class="fa fa-twitter"></i></a></span>
                     <span><a href="#"><i class="fa fa-facebook-f"></i></a></span>
-                    <span><a href="#"><i class="fa fa-instagram"></i></a></span>
-                    <span><a href="#"><i class="fa fa-snapchat-ghost"></i></a></span>
-                    <span><a href="#"><i class="fa fa-youtube"></i></a></span>
-                    <span><a href="#"><i class="fa fa-linkedin-square"></i></a></span>
+                    <span><a href="#"><i class="fa fa-foursquare"></i></a></span>
+                    <span><a href="#"><i class="fa fa-pinterest"></i></a></span>
+                    <span><a href="#"><i class="fa fa-yelp"></i></a></span>
                 </p>
                 <p>
                     <span><a href="#">privacy policy</a></span> <b style="font-size: 24px;"> . </b>
@@ -364,7 +354,12 @@
                     <span><a style="color: blue;" href="#">get our emails</a></span>
                 </p>
             </div>
-            <div class="col-lg-3 col-sm-12"></div>
+            <div class="col-lg-3 col-sm-12 logos">
+                <a href="#"><img src="./images/googlePlay.png" alt="playStore logo"></a>
+                <a href="#"><img src="./images/appStore.png" alt="appstore logo"></a>
+                <a href="#"><img src="./images/norton.png" alt="norton logo"></a>
+                <a href="#"><img src="./images/mcafee-security.png" alt="mcafee logo"></a>
+            </div>
             <div class="col-lg-3 col-sm-12">
                 <div class="dropdown">
                     <button class="btn w-100 dropdown-toggle" type="button" id="dropdownMenuButton"
@@ -392,20 +387,32 @@
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <h4 class="text-center mb-3">Signup for News Letter</h4>
-                        <form class="signupform" id="signupform">
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name">
+                        <div class="main-div">
+                            <div class="left-div">
+                                <div class="overlay-modal"></div>
                             </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email">
+                            <div class="right-div">
+                                <h5>Subscribe To Get The Latest News </h5>
+                                <form action="#" class="signupForm" id="signupform">
+                                    <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <input type="text" placeholder="Name" class="form-control">
+                                    </div>
+                                    <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <input type="email" placeholder="Email" class="form-control">
+                                    </div>
+                                    <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <input type="number" placeholder="Mobile Number" class="form-control">
+                                    </div>
+                                    <div class="check">
+                                        <input type="checkbox"> Send details to Email <br>
+                                        <input type="checkbox"> Send details to Phone
+                                    </div>
+                                </form>
+                                <div class="signup-btn text-center">
+                                    <button class="btn btn-primary w-50" type="submit">Submit</button>
+                                </div>
                             </div>
-                            <div class="signup-btn">
-                                <button class="btn btn-dark">Signup</button>
-                            </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
