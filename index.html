@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -280,30 +281,34 @@
     </div>
 
     <!-- Contact Us -->
-    <div class="container contact" id="contact">
-        <h2>Contact-Us</h2>
-        <div class="container">
-            <form method="POST">
-                <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name">
-                </div>
-                <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email">
-                </div>
-                <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <label for="phone">Phone no.</label>
-                    <input type="text" class="form-control" id="phone">
-                </div>
-                <div class="r-captcha">
-                    <div class="g-recaptcha" data-sitekey="6LejwsgUAAAAAB9qtyBhXtLWAgdnUrwyZUjJIluK"></div>
-                </div>
+    <div class="container contact row">
+        <div class="col-md-6">
+            <h2 class="text-center">Contact Us</h2>
+            <div class="container">
+                <form method="POST">
+                    <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <label for="phone">Phone no.</label>
+                        <input type="text" class="form-control" id="phone">
+                    </div>
+                    <div class="r-captcha">
+                        <div class="g-recaptcha" data-sitekey="6LejwsgUAAAAAB9qtyBhXtLWAgdnUrwyZUjJIluK"></div>
+                    </div>
+                    <div>
+                        <button class="btn btn-success" type="submit">Confirm</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-6">
 
-                <div class="s-btn">
-                    <button class="btn btn-success" type="submit">Confirm</button>
-                </div>
-            </form>
         </div>
     </div>
 
