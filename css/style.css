@@ -86,7 +86,31 @@
 .four .card img {
       height: 200px;
       width: 100%;
-  }
+}
+
+.contactus {
+    padding: 20px 55px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.contactus .btn {
+  margin-left: 10px;
+  width: 94%;
+}
+
+.r-captcha {
+  margin-bottom: 10px;
+  margin-left: 16px;
+}
+
+.maps {
+ width: 90%;
+ margin: 0 auto;
+ margin-top: 3rem;
+ margin-left: 4rem;
+}
+
 .five span i {
     font-size: 24px;
     padding: 0 10px;

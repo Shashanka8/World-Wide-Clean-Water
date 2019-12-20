@@ -1,4 +1,4 @@
-$('document').ready(function() {
+$('document').ready(function () {
 	setTimeout(() => {
 		$('#signUp').modal('show');
 		$('#signUp').addClass('signup-back');

@@ -281,34 +281,36 @@
     </div>
 
     <!-- Contact Us -->
-    <div class="container contact row">
-        <div class="col-md-6">
-            <h2 class="text-center">Contact Us</h2>
-            <div class="container">
-                <form method="POST">
-                    <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name">
-                    </div>
-                    <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email">
-                    </div>
-                    <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <label for="phone">Phone no.</label>
-                        <input type="text" class="form-control" id="phone">
-                    </div>
-                    <div class="r-captcha">
-                        <div class="g-recaptcha" data-sitekey="6LejwsgUAAAAAB9qtyBhXtLWAgdnUrwyZUjJIluK"></div>
-                    </div>
-                    <div>
-                        <button class="btn btn-success" type="submit">Confirm</button>
-                    </div>
-                </form>
-            </div>
+    <div class="container">
+        <h2 class="text-center pt-5">Contact Us</h2>
+        <div class="contactus">
+            <form method="POST">
+                <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <label for="phone">Phone no.</label>
+                    <input type="text" class="form-control" id="phone">
+                </div>
+                <div class="r-captcha">
+                    <div class="g-recaptcha" data-sitekey="6LejwsgUAAAAAB9qtyBhXtLWAgdnUrwyZUjJIluK"></div>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-success" type="submit">Confirm</button>
+                </div>
+            </form>
         </div>
-        <div class="col-md-6">
+    </div>
 
+    <!-- Maps -->
+    <div class="maps">
+        <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
         </div>
     </div>
 
@@ -425,6 +427,19 @@
         crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="./js/index.js"></script>
+
+    <script>(function () {
+            var setting = { "height": 441, "width": 1280, "zoom": 17, "queryString": "54 Perry Rd, Bangor, ME 04401, USA", "place_id": "ChIJu9ysWXFLrkwRRO8puOTw3c0", "satellite": false, "centerCoord": [44.78430156576118, -68.79095995], "cid": "0xcdddf0e4b829ef44", "lang": "en", "cityUrl": "/us/me/bangor-3230", "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "134295" };
+            var d = document;
+            var s = d.createElement('script');
+            s.src = 'https://1map.com/js/script-for-user.js?embed_id=134295';
+            s.async = true;
+            s.onload = function (e) {
+                window.OneMap.initMap(setting)
+            };
+            var to = d.getElementsByTagName('script')[0];
+            to.parentNode.insertBefore(s, to);
+        })();</script>
 
 </body>
 
