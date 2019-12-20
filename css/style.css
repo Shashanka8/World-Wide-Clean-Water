@@ -1,0 +1,324 @@
+/* First Divison */
+.one {
+    background-image: url('https://akm-img-a-in.tosshub.com/indiatoday/images/story/201903/children-1822704_1920.jpeg?J2XH1nO4xImz1WBCetHWRHI83PcF2aHh');
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.one li a{
+    color: white !important;
+    text-decoration: none;
+}
+
+/* Nav Button */
+.nav-button {
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+}
+
+/* Navbar Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: black;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: gray;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block; 
+    background: black; 
+    opacity: 0.8;
+}
+
+/* Second division */
+.two {
+    background-image: url('https://lifewater.org/wp-content/uploads/2018/11/35944505476_fb4d7fb14a_k.jpg');
+    height: 130vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.three {
+    background-color: orange;
+    padding: 20px;
+}
+
+.four {
+    padding-top: 20px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQJ3S7_44uAP_t3XIhGyB-molWSK5BU_tZaGmdl4kaEtiG6JZ25w&s');
+    height: 170vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    margin: 20px;
+    width: 20rem;
+}
+
+.four .card img {
+      height: 200px;
+      width: 100%;
+  }
+.five span i {
+    font-size: 24px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.five span a, .five p a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Signup Modal*/
+#signUp {
+  display: none;
+  padding: 5px;
+  color: black;
+}
+
+#signUp .modal-body {
+  background: blue;
+}
+
+.signup-back {
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.9);
+}
+/* Signup Modal*/
+
+
+/* For Responsiveness -Media Query */
+
+/* For Mobile Devices */
+@media only screen and (max-width: 360px) {
+  .one {
+      height: 80vh;
+  }
+  .one h2 {
+      font-size: 24px;
+  }
+  .slider img {
+        height: 130px;
+        width: 100%;
+  }
+  .slider .card {
+      margin: 0 15%;
+      padding: 5px;
+      width: 15rem;
+      height: 25rem;
+  }
+  .two {
+      height: 130vh;
+  }
+  .two h1 {
+      font-size: 20px;
+  }
+  .three .left iframe {
+    width: 90vw;
+    height: 255px;
+    margin: 0 0 -5px -15px;
+  }
+  .card{
+      /* margin: 10px; */
+      width: 15rem;
+  }
+  .three form .col-md-3 {
+      margin: 5px;
+  }
+  .three .right h2 {
+    font-size: 24px;
+  }
+  .four {
+      height: 220vh;
+  }
+  .ds-none {
+      display: none;
+  }
+  .four .card img {
+      height: 150px;
+      width: 100%;
+  }
+  .four .text-white h2 {
+      font-size: 24px;
+  }
+  .five .col-sm-6 {
+      width: 50%;
+  }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 440px) {
+  .one {
+      height: 80vh;
+  }
+  .one h2 {
+      font-size: 24px;
+  }
+    .two {
+      height: 120vh;
+  }
+  .two h1 {
+      font-size: 20px;
+  }
+  .slider img {
+        height: 130px;
+        width: 100%;
+  }
+  .slider .card {
+      margin: 0 20%;
+      /* padding: 5px; */
+      width: 15rem;
+      height: 25rem;
+  }
+  .three .left iframe {
+    width: 86vw;
+    height: 290px;
+    margin: 0 0 -5px -15px;
+  }
+  .three form .col-md-3 {
+      margin: 5px;
+  }
+  .three .right h2 {
+    font-size: 24px;
+  }
+  .four {
+      height: 240vh;
+  }
+  .four .text-white h2 {
+      font-size: 22px;
+  }
+  .four .card {
+      width: 18rem;
+  }
+  .ds-none {
+      display: none;
+  }
+  .five .col-sm-6 {
+      width: 50%;
+  }
+}
+
+/* For Mobile with wider screen */
+@media only screen and (min-width: 481px) and (max-width: 575.98px) {
+  .one {
+      height: 80vh;
+  }
+  .two {
+      height: 130vh;
+  }
+  .two h1 {
+      font-size: 24px;
+  }
+  .slider {
+      margin: 0 20%;
+  }
+  .three iframe {
+      width: 87vw;
+      height: 255px;
+  }
+  .three .right {
+      margin: -5px 0 0 12px;
+  }
+  .three .right h2 {
+      font-size: 26px;
+  }
+  .three form .col-md-3 {
+      margin: 5px;
+  }
+  .four{
+      height: 250vh;
+  }
+  .four .card {
+      margin-left: -4px;
+      width: 15rem;
+  }
+  .four .col-md-6 {
+      width: 50%;
+  }
+  .five .col-sm-6 {
+      width: 50%;
+  }
+}
+
+/* For Tablets */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .one {
+      height: 80vh;
+  }
+  .two h1 {
+      font-size: 32px;
+  }
+  .slider {
+      margin: 0 28%;
+  }
+  .three .left iframe {
+      width: 65vw;
+      height: 295px;
+  }
+  .three .right {
+      padding: 20px;
+      margin-top: -5px;
+      margin-left: 20px;
+  }
+  .four{
+      height: 240vh;
+  }
+  .four .card {
+      /* margin-left: -4px; */
+      width: 15rem;
+  }
+  .four .col-md-6 {
+      width: 50%;
+  }
+}
+
+/* For Wider Tablets */
+@media only screen and (min-width: 768px) and (max-width: 991.98px)  {
+  .one {
+      height: 80vh;
+  }
+  .two h1 {
+      font-size: 32px;
+  }
+  .four{
+      height: 250vh;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+    .three iframe {
+    width: 560px;
+    height: 315px;
+    }
+    .slider {
+    margin: 0 36%;
+    }
+
+}
